@@ -1,0 +1,77 @@
+{"properties": [
+  {
+    "name": "upload.file.extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.file.extensions'"
+  },
+  {
+    "name": "upload.file.extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.file.extensions'"
+  },
+  {
+    "name": "storage.location",
+    "type": "java.lang.String",
+    "description": "A description for 'storage.location'"
+  },
+  {
+    "name": "lines.comments",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.comments'"
+  },
+  {
+    "name": "lines.accesors",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.accesors'"
+  },
+  {
+    "name": "lines.typeData",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typeData'"
+  },
+  {
+    "name": "lines.typedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typedata'"
+  },
+  {
+    "name": "lines.typedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typedata'"
+  },
+  {
+    "name": "lines.typedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typedata'"
+  },
+  {
+    "name": "lines.typedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typedata'"
+  },
+  {
+    "name": "lines.typedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typedata'"
+  },
+  {
+    "name": "lines.typedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.typedata'"
+  },
+  {
+    "name": "storage.location",
+    "type": "java.lang.String",
+    "description": "A description for 'storage.location'"
+  },
+  {
+    "name": "lines.comments",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.comments'"
+  },
+  {
+    "name": "lines.methodtypedata",
+    "type": "java.lang.String",
+    "description": "A description for 'lines.methodtypedata'"
+  }
+]}

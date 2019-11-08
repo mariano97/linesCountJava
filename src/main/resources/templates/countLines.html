@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xlmns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head">
+</head>
+<body>
+	<header th:replace="layout/layout :: header"></header>
+
+	<div class="container py-4">
+		<div class="card">
+			<div class="card-header" th:text="${tituloHeader}"></div>
+			<div class="card-body">
+				<form th:action="@{/countLines}" th:object="${linesCounted}"
+					method="POST">
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Lineas totales: </label>
+						<div class="col-sm-1">
+							<input type="text" class="form-control" th:field="*{linesTotal}"
+								readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Lineas vacias: </label>
+						<div class="col-sm-1">
+							<input type="text" class="form-control" th:field="*{linesEmpty}"
+								readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Lineas comentadas:
+						</label>
+						<div class="col-sm-1">
+							<input type="text" class="form-control"
+								th:field="*{linesComment}" readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Lineas logicas: </label>
+						<div class="col-sm-1">
+							<input type="text" class="form-control"
+								th:field="*{linesLogical}" readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Total metodos: </label>
+						<div class="col-sm-1">
+							<input type="text" class="form-control" th:field="*{methods}"
+								readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Atributos totales:
+						</label>
+						<div class="col-sm-1">
+							<input type="text" class="form-control"
+								th:field="*{linesAttribute}" readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-1">
+							<input th:type="hidden" th:field="*{nameFile}" readonly />
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-6">
+							<input type="submit" value="Guardar" class="btn btn-success" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer th:replace="layout/layout :: footer"></footer>
+</body>
+</html>
